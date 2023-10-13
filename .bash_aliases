@@ -39,7 +39,7 @@ fi
 # Update, commit, yolo.
 # unalias gm
 gm() {
-    git add -u && git add * && git commit -m '$*'
+    git add -u && git add * && git commit -m "$*"
 }
     # local comment="$*"
     # sed -e 's/^"//'  -e 's/"$//' <<< $comment
