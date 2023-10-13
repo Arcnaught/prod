@@ -33,7 +33,7 @@ if [ -f "/usr/share/bash-completion/completions/git" ]; then
   __git_complete stash _git_stash
   __git_complete pop _git_stash
 else
-  echo "Warning: Couldn't load bash autocopmletions!"
+  echo "Warning: Couldn't load bash autocompletions!"
 fi
 
 # Update, commit, yolo.
