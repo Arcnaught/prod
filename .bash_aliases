@@ -1,5 +1,6 @@
 # Productivity commands
 alias t="touch"
+alias lsa="ls -la"
 alias cl="clear"
 alias upd="sudo apt update && sudo apt full-upgrade"
 
